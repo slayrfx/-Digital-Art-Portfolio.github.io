@@ -1,1 +1,1 @@
-https://slayrfx.github.io/Digital-Art-Portfolio.github.io/
+https://slayrfx.github.io/Digital-Art-Portfolio/
