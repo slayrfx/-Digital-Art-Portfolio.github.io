@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sefoe-ui_light, segoe UI Light, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
+	color: #526573;
+}
+
+header{
+	padding: 6px 0;
+	background-color: #FFBF00;
+}
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+ul{
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	float: left;
+	width: 50%;
+}
+
+.logo{
+	width: 90px;
+	height: 90px;
+	background: url(../img/SlayrLogoMain1.png) center center no-repeat;
+	padding-top: 0px;
+}
+
+.socials{
+	float: right;
+	color: white;
+}
+
+.socials .instagram{
+	float: left;
+	background: url(../img/instagram.png) center center no-repeat;
+	width: 30px;
+	height: 20px;
+	margin-top: 30px;
+}
+
+.socials .facebook{
+	float: right;
+	background: url(../img/facebook.png) center center no-repeat;
+	width: 30px;
+	height: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.phonenum{
+	float: right;
+	color: black;
+}
+
+.phonenum .phone{
+	float: left;
+	background: url(../img/telephone-icon.png) center center no-repeat;
+	width: 30px;
+	height: 20px;
+	margin-top: 30px;
+	filter: invert(1);
+}
+
+.phonenum .number{
+	display:inline-block;
+	margin-top: 27px;
+	margin-left:10px;
+	font-size: 17px;
+	padding-right: 10px;
+	font-weight: 600;
+}
+
+h1{
+	font-size: 30px;
+	margin: 80px 0 60px 0;
+	text-align: center;
+}
+
+.amber{
+	color: #FFBF00;
+	text-decoration: none;
+}
+
+.content{
+	overflow: hidden;
+	text-align: center;
+}
+
+h3{
+	text-align:center;
+	margin-top: 0;
+}
+
+.box{
+	width: 49.9%;
+}
+
+.vertical-line{
+	border-left: 1px solid #FFBF00;
+	height: 100px;
+	margin-top: 120px;
+}
+
+.box, .vertical-line{
+	float: left;
+}
+
+.icon-large{
+	width: 250px;
+	height: 188px;
+	margin: 0 auto;
+}
+
+.icon-large img{
+	width: 100%;
+	height: 100%;
+}
+
+p{
+	padding: 0 50px;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 600;
+}
+
+.link{
+	text-decoration: none;
+	padding: 10px 30px;
+	border: 1px solid #FFBF00;
+	display: inline-block;
+	background: rgba(255, 191, 0, .10)
+}
+
+section.aftercontent{
+	overflow: hidden;
+	margin: 50px 0 0 0;
+	padding: 80px 0;
+	color: #FFBF00;
+	background: url(../img/WixBG1.png) center center no-repeat;
+	opacity: 0.7;
+	background-color: rgba(255, 191, 0, .10);
+}
+
+h2{
+	margin: 0 0 -10px 0;
+	text-align: center;
+	font-size: 26px;
+}
+
+.form-elements{
+	padding: 20px 0 0 0;
+	width: 50%;
+	margin: 20px auto 0 auto;
+	
+}
+
+form{
+	margin:0;
+}
+
+input{
+	padding: 13px;
+	margin-left: 10px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	color: #747474;
+}
+
+button{
+	color: black;
+	padding: 13px;
+	background-color: #FFBF00;
+	border: 1px solid #000000;
+	border-radius: 3px;
+}
+
+.terms{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.scrolling-wrapper{
+	/*overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap; */
+	max-height: 200px;
+	border: 1px solid #ddd;
+	display: flex;
+	overflow-x: auto;	
+}
+
+.scrolling-wrapper::-webkit-scrollbar{
+	width: 0;
+}
+
+.card {
+	/*display: inline-block;
+	max-width: 100%;
+	height: auto; */
+	min-width: 500px;
+	height:200px;
+	line-height: 110px;
+	margin-right: 2px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
